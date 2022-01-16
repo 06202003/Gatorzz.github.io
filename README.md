@@ -8,10 +8,10 @@ We don't use a database, because our focus is on creating responsive page views 
 https://gatorzzstore.000webhostapp.com/TugasBesar/
 
 username : admin
-password : admin123
+, password : admin123
 
 username : user
-password : user123
+, password : user123
 
 Bug : Add to Cart Button, when clicking the "add to cart" button more than 1 time, the item will be added to a new row, not adding to the value in only one row
 
