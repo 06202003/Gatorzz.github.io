@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <style>
+      
+      .card {
+        box-shadow: 0 0 1px #b3ff51, 0 0 2px #b3ff51, 0 0 6px #b3ff51, 0 0 12px #b3ff51, inset 0 0 1px #b3ff51, inset 0 0 2px #b3ff51, inset 0 0 6px #b3ff51, inset 0 0 12px #b3ff51;
+        transition: box-shadow .3s ease-out;
+        box-shadow: .8px .9px 3px grey;
+        
+      }
+
+      .card:hover{ 
+        box-shadow: 0 0 1px #b3ff51, 0 0 2px #b3ff51, 0 0 6px #b3ff51, 0 0 12px #b3ff51, inset 0 0 1px #b3ff51, inset 0 0 2px #b3ff51, inset 0 0 6px #b3ff51, inset 0 0 12px #b3ff51;
+        transition:  box-shadow .3s ease-in;
+      }
+      
+      .border {
+        border: 3px solid #e0e722;
+        box-shadow: 0px 0px 0px grey;
+      }
+      
+    </style>
+</head>
+<body>
+     <!-- Navbar -->
+     <span id="0"></span>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+       <div class="container ">
+         <a class="navbar-brand" >
+           <img src="src/logo.png" alt="" width="60" height="60" class="d-inline-block align-middle" />
+           <span class="align-middle ms-2 fw-light fs-4" style="letter-spacing: 2px">Gadget Store</span>
+         </a>
+         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon ms-auto"></span>
+         </button>
+         <div class="collapse navbar-collapse ms-2 mt-3" id="navbarNavDropdown">
+           <ul class="navbar-nav ms-auto ">
+             <li class="nav-item">
+               <a class="nav-link" aria-current="page" href="Home2.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="Contact Us PHP/contactus.php">ContactUs</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" aria-current="page" href="aboutus.html">AboutUs</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="resources.html">Resources</a>
+               </li>
+             <li class="nav-item">
+               <a class="nav-link" href="index.html">Logout</a>
+             </li>
+             <li class="nav-item">
+               <div class="form-check form-switch  mt-2 me-2">
+                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="a()" />
+                 <script>
+                   function a() {
+                     var x = document.body;
+                     if (x.style.backgroundColor == 'black') {
+                       document.body.style.backgroundColor = 'white';
+                       document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'white';
+                       document.getElementById('judul1').style.color = 'black';
+                       document.getElementById('judul2').style.color = 'black';
+                     } else {
+                       document.body.style.backgroundColor = 'black';
+                       document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'black';
+                       document.getElementById('judul1').style.color = 'white';
+                       document.getElementById('judul2').style.color = 'white';
+                     }
+                   }
+                 </script>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+     <!--Akhir Navbar-->
+    <!-- Tabel -->
+    <div style="background-color: #212529;">
+    <div class="container ">
+        <!-- Judul -->
+    <div class="container text-align-center d-flex justify-content-center pt-3">
+        <h1 style="color: white;">Resources</h1>
+    </div>
+    </div>
+    <!-- Judul -->
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,64L34.3,69.3C68.6,75,137,85,206,96C274.3,107,343,117,411,117.3C480,117,549,107,617,122.7C685.7,139,754,181,823,197.3C891.4,213,960,203,1029,181.3C1097.1,160,1166,128,1234,122.7C1302.9,117,1371,139,1406,149.3L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+    <div class="container ">
+        <div class="row ">
+          <!-- Pinterest -->
+            <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+                <div class="card border" style="width: 18rem;">
+                    <img src="src/pinterest.png" class=" mt-1 ms-1 me-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pinterest</h5>
+                      <p class="card-text">Sumber Gambar Product</p>
+                      <a href="https://id.pinterest.com/" target="_blank" class="btn btn-success">Click Here</a>
+                    </div>
+                  </div>
+            </div>
+          <!-- Youtube -->
+            <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+                <div class="card border" style="width: 18rem;">
+                    <img src="src/youtube.png" height="200rem" class=" mt-5 " alt="...">
+                    <div class="card-body" style="padding-top: 4rem;">
+                      <h5 class="card-title">Youtube</h5>
+                      <p class="card-text">Sumber Materi/Guidance JavaScript</p>
+                      <a href="https://youtu.be/YeFzkC2awTM" target="_blank" class="btn btn-success">Click Here</a>
+                    </div>
+                  </div>
+            </div>
+          <!-- Canva -->
+            <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+                <div class="card border" style="width: 18rem;">
+                    <img src="src/canva.png"  height="300rem" class="" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Canva</h5>
+                      <p class="card-text">Tools Pembuatan Banner dan Logo</p>
+                      <a href="https://www.canva.com/design/DAEzKdTrAX0/share/preview?token=UKIxE_02Jm-fBTsoXK-MIg&role=EDITOR&utm_content=DAEzKdTrAX0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"  target="_blank" class="btn btn-success">Click Here</a>
+                    </div>
+                  </div>
+            </div>
+          <!-- HTML -->
+            <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+                <div class="card border" style="width: 18rem;">
+                    <img src="src/html.png" class=" mt-2 ms-1 me-1"  height="300rem" class="" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">HTML</h5>
+                      <p class="card-text">Language untuk ditampilkan di halaman web</p>
+                      <a href="https://www.w3schools.com/html/"  target="_blank" class="btn btn-success">Click Here</a>
+                  </div>
+                </div>
+            </div>
+          <!-- CSS -->
+          <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+            <div class="card border" style="width: 18rem;">
+                <img src="src/css.png" class=" mt-1 ms-1 me-1"  height="300rem" class="" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">Cascading Style Sheet digunakan untuk memperindah halaman web</p>
+                  <a href="https://www.w3schools.com/css/"  target="_blank" class="btn btn-success">Click Here</a>
+              </div>
+            </div>
+        </div>
+        <!-- JS -->
+        <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+          <div class="card border" style="width: 18rem;">
+              <img src="src/javascript.png" class=" mt-1 ms-1 me-1"  height="300rem" class="" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text">Language untuk meningkatkan fungsionalitas pada halaman web</p>
+                <a href="https://www.javascript.com/"  target="_blank" class="btn btn-success">Click Here</a>
+            </div>
+          </div>
+      </div>
+      <!-- PHP -->
+      <div class="col-md-4 mt-5 offset-md-2 d-flex justify-content-center mb-3">
+        <div class="card border" style="width: 18rem;">
+            <img src="src/php.png" class=" mt-2 ms-1 me-1"  height="300rem" class="" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PHP</h5>
+              <p class="card-text">Language untuk contact us pada halaman web</p>
+              <a href="https://www.php.net/"  target="_blank" class="btn btn-success">Click Here</a>
+          </div>
+        </div>
+    </div>
+    <!-- Bootstrap -->
+    <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+      <div class="card border" style="width: 18rem;">
+          <img src="src/bootstrap.png" class=" mt-1 ms-1 me-1"  height="300rem" class="" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap</h5>
+            <p class="card-text">Language untuk templat desain pada halaman web</p>
+            <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"  target="_blank" class="btn btn-success">Click Here</a>
+        </div>
+      </div>
+  </div>    
+          </div>
+        </div>  
+    <!-- Tabel -->
+        <!--Footer-->
+        <div class="card w-100 mt-5" style="border: none;">
+  
+          <div class="card-body text-center bg-dark text-white ">
+            <h5 class="card-title"><i>"Be Yourself and Never Surrender!"</i></h5>
+            <h6 class="card-title"><i>JessNoLimit</i></h6>
+            <p class="card-text">&copy; Gator Gadget Store 2021</p>
+          </div>
+  <!--Akhir Footer-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+</body>
+</html>
