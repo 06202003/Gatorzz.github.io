@@ -1,4 +1,4 @@
 # Ecommerce-Appearance-Project
 project UAS - WebDasar IN211
 
-©GatorZZ 2021
+©GatorZZ Gadget Store 2021
