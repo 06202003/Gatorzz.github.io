@@ -145,7 +145,7 @@ a:hover {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 767px) and (max-device-width: 992px) {
   .card-title {
     font-size: 100%;
   }
@@ -159,5 +159,22 @@ a:hover {
 
   .mousepad {
     margin-top: 2.2rem;
+  }
+}
+@media screen and (min-device-width: 992px) and (max-device-width: 1400px) and (-webkit-min-device-pixel-ratio: 1) {
+  .mousepadlogi {
+    margin-top: 1.2rem;
+  }
+  .mousetxt {
+    margin-top: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .samsung {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .rog {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
   }
 }
