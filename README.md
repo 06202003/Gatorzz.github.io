@@ -15,7 +15,7 @@ password : user123
 
 Bug : <br />
 Add to Cart Button, when clicking the "add to cart" button more than 1 time, the item will be added to a new row, not adding to the value in only one row <br />
-Responsive home page for ipad pro <br />
+
   
 
 ©GatorZZ Gadget Store 2021
