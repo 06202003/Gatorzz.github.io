@@ -13,9 +13,8 @@ password : admin123
 username : user <br />
 password : user123
 
-Bug : <br />
-Add to Cart Button, when clicking the "add to cart" button more than 1 time, the item will be added to a new row, not adding to the value in only one row <br />
-
-  
+List of Known Issues Gator Gadget Store : <br />
+1. Cart Checkout <br /> Bisa multi item yang ditambahkan ke cart. <br />
+2. Contact Us <br /> Hanya bisa diakses untuk local host. <br />
 
 ©GatorZZ Gadget Store 2021
