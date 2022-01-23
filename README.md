@@ -1,7 +1,9 @@
-# Ecommerce-Appearance-Project
+# Ecommerce-Prototype-Project
 Project UAS - WebDasar IN211
 
-Kami menggunakan
+Kami membuat prototype Ecommerce mulai dari login, home, hingga contact.
+
+Kami menggunakan :
 1. HTML
 2. CSS
 3. JavaScript
