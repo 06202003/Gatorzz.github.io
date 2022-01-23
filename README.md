@@ -1,9 +1,11 @@
 # Ecommerce-Appearance-Project
 Project UAS - WebDasar IN211
 
-We use HTML, CSS, Javascript, and PHP as tools to create the web.
-We also use Bootstrap framework to create responsive web pages.
-We don't use a database, because our focus is on creating responsive page views with some javascript features.
+Kami menggunakan
+1. HTML
+2. CSS
+3. JavaScript
+4. Framework Bootstrap
 
 https://gatorzzstore.000webhostapp.com/TugasBesar/
 
