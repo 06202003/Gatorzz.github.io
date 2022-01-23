@@ -5,6 +5,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="icon" type="image/x-icon" href="src/favicon.ico">
+<title>Contact Us</title>
     <style>
       body {
         font-family: Arial, Helvetica, sans-serif;
@@ -120,7 +122,7 @@
          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon ms-auto"></span>
          </button>
-         <div class="collapse navbar-collapse ms-2 mt-3" id="navbarNavDropdown">
+         <div class="collapse navbar-collapse ms-2" id="navbarNavDropdown">
            <ul class="navbar-nav ms-auto ">
              <li class="nav-item">
                <a class="nav-link" aria-current="page" href="../Home2.html">Home</a>
@@ -177,11 +179,11 @@
           <img src="../src/logo1.png" style="width: 100%" class="mt-5"/>
         </div>
         <div class="column d-inline text-start">
-          <form method="POST">
+          <form method="POST" name="contact-us">
             <label for="fname">Name</label>
-            <input type="text" id="fname" name="fname" placeholder="Insert Your Name" />
+            <input type="text" id="fname" name="name" placeholder="Insert Your Name" />
             <label for="lname">Email</label>
-            <input type="text" id="lname" name="lname" placeholder="Insert Your Email" />
+            <input type="text" id="lname" name="email" placeholder="Insert Your Email" />
             <label for="country">Country</label>
             <select id="country" name="country" class="mb-3">
               <option value="australia">Australia</option>
@@ -191,7 +193,7 @@
               <option value="overseas">Overseas</option>
             </select>
             <label for="subject">Type Something...</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" ></textarea>
+            <textarea id="subject" name="massage" placeholder="Write something.." style="height:200px" ></textarea>
             <input type="submit" class="btn btn-success mt-3" value="Submit" name="ok" onclick="alert1()"/>
           </form>
             <script>
@@ -214,21 +216,31 @@
       <p class="card-text">&copy; Gator Gadget Store 2021</p>
     </div>
   </div>
-
+            
 <!--Akhir Footer-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-  </body>
-</html>
+    <!-- <script> 
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx4oaxxlK6rgecOFfxYPDABhUdbpLc7FLjONC_nj23arIWYv0JUtwukzzZ85zSWNKdV/exec'
+  const form = document.forms['contact-us']
 
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>-->
+</body>
+</html>
 <?php
 if(isset($_POST['ok'])){
-    if(empty($_POST['fname']) || empty($_POST['lname']) || empty($_POST['country']) || empty($_POST['subject'])){
+    if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['country']) || empty($_POST['massage'])){
         echo "Masukkan data";
     }else{
-        $fname=$_POST['fname'];
-        $lname=$_POST['lname'];
+        $fname=$_POST['name'];
+        $lname=$_POST['email'];
         $country=$_POST['country'];
-        $subject=$_POST['subject'];
+        $subject=$_POST['massage'];
         $buka=fopen("hasil.html",'a');
         fwrite($buka,"Name : ${fname} <br> ");
         fwrite($buka,"Email : ${lname} <br> ");
