@@ -196,7 +196,7 @@
             <textarea id="subject" name="massage" placeholder="Write something.." style="height:200px" ></textarea>
             <input type="submit" class="btn btn-success mt-3" value="Submit" name="ok" onclick="alert1()"/>
           </form>
-            <script>
+             <script> 
               function alert1(){
                 alert("Thank You For Contacting Us \nWe will reply your message soon ");
               }
@@ -235,7 +235,7 @@
 <?php
 if(isset($_POST['ok'])){
     if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['country']) || empty($_POST['massage'])){
-        echo "Masukkan data";
+      echo "<script type='text/javascript'>alert('Masukkan Data!');</script>";
     }else{
         $fname=$_POST['name'];
         $lname=$_POST['email'];
