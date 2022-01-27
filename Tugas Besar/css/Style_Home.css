@@ -8,6 +8,9 @@
   border-bottom-left-radius: 1rem;
   border-top-left-radius: 1rem;
 }
+.card-img-top {
+  width: 16rem;
+}
 .summary {
   background-color: #ddd;
   border-top-right-radius: 1rem;
@@ -145,7 +148,7 @@ a:hover {
     margin-bottom: 1rem;
   }
   .rtx-title {
-    margin-top: 2.5rem;
+    margin-top: 0.7rem;
     margin-bottom: 0.8rem;
   }
 }
@@ -193,6 +196,10 @@ a:hover {
     margin-top: 2.4rem;
     margin-bottom: 0.77rem;
   }
+  .rtx-title {
+    margin-top: 2.5rem;
+    margin-bottom: 0.8rem;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
@@ -208,11 +215,15 @@ a:hover {
   }
 
   .mousepad {
-    margin-top: 2.2rem;
+    margin-top: 2.4rem;
   }
   .mousepad-title {
-    margin-top: 2.4rem;
+    margin-top: 2rem;
     margin-bottom: 0.77rem;
+  }
+  .rtx-title {
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
   }
 }
 
