@@ -18,7 +18,6 @@ username : user <br />
 password : user123
 
 List of Known Issues Gator Gadget Store : <br />
-1. Cart Checkout <br /> Bisa multi item yang ditambahkan ke cart. <br />
-2. Contact Us <br /> Hanya bisa diakses untuk local host. <br />
+1. Cart Checkout <br /> Bisa multi item yang sama dapat ditambahkan ke cart. <br />
 
 ©GatorZZ Gadget Store 2021
