@@ -9,7 +9,7 @@ Kami menggunakan :
 3. JavaScript
 4. Framework Bootstrap
 
-https://gatorzzstore.000webhostapp.com/TugasBesar/
+https://gatorzz.netlify.app/
 
 username : admin <br />
 password : admin123
