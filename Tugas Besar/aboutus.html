@@ -8,6 +8,7 @@
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <title>About Us</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
        .border {
   border: 1px solid black;
@@ -69,11 +70,18 @@
       </div>
     </nav>
     <!--Akhir Navbar-->
+    <div class="judulatas1">
     <div class="about-section text-center" style="background-color: #212529;color: white;">
-      <h1>About Us</h1>
+      <h1 data-aos="fade-down" data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false">About Us</h1>
       <br>
-      <p class="ms-3 me-3">Perkenalkan, kami adalah 11 mahasiswa fakultas Teknologi Informasi prodi Teknik Informatika Universitas Kristen Maranatha. Website ini adalah hasil project kami untuk UAS mata kuliah Web Dasar(IN-212).</p>
-      <br>
+      <p class="ms-3 me-3" data-aos="fade-up" data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false" data-aos-delay="300">Kami adalah mahasiswa Fakultas Teknologi Informasi prodi Teknik Informatika Universitas Kristen Maranatha angkatan 2021. Website ini adalah hasil lanjutan project UAS mata kuliah Web Dasar (IN-212).</p>
+
       </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path 
@@ -81,12 +89,16 @@
       fill-opacity="1" 
       d="M0,96L20,112C40,128,80,160,120,149.3C160,139,200,85,240,85.3C280,85,320,139,360,138.7C400,139,440,85,480,96C520,107,560,181,600,181.3C640,181,680,107,720,74.7C760,43,800,53,840,53.3C880,53,920,43,960,80C1000,117,1040,203,1080,224C1120,245,1160,203,1200,176C1240,149,1280,139,1320,122.7C1360,107,1400,85,1420,74.7L1440,64L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z">
     </path>
+  </div>
   </svg>
     <div class="container">
       <div class="row">
         <!-- Yehezkiel David Setiawan -->
-          <div class="col-md-6 mt-5">
-            <div class="card border">
+          <div class="col-md-4 mt-5">
+            <div class="card border" data-aos="fade-down-right" data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false" data-aos-delay="600">
                 <img src="src/david.jpg"  class="mt-2 ms-2 me-2" />
                  <div class="card-body ">
                 <h2>Yehezkiel David Setiawan</h2>
@@ -97,9 +109,11 @@
             </div>
           </div>
           <!-- Cristianto Tri Arthurito -->
-          <div class="col-md-6 mt-5">
-            <div class="card border">
-              
+          <div class="col-md-4 mt-5">
+            <div class="card border" data-aos="fade-down" data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false" data-aos-delay="600">
                 <img src="src/arthur.jpg"  class="mt-2 ms-2 me-2" /> <!--Ganti gambarnya-->
                  <div class="card-body">
                 <h2>Christianto Tri Arthurito</h2>
@@ -110,8 +124,11 @@
             </div>
           </div>
           <!--Willyandie Saputra-->
-          <div class="col-md-6 offset-md-3 mt-5">
-            <div class="card border">
+          <div class="col-md-4  mt-5">
+            <div class="card border" data-aos="fade-down-left" data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false" data-aos-delay="600">
               
                 <img src="src/willy.png"  class="mt-2 ms-2 me-2" /> <!--Ganti gambarnya-->
                  <div class="card-body">
@@ -135,5 +152,9 @@
     </div>
   <!--Akhir Footer-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-  </body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    </body>
 </html>
