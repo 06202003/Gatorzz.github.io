@@ -1,0 +1,40 @@
+.border {
+  border: 3px solid #e0e722;
+  box-shadow: 0 0 1px #b3ff51, 0 0 2px #b3ff51, 0 0 6px #b3ff51, 0 0 12px #b3ff51, inset 0 0 1px #b3ff51, inset 0 0 2px #b3ff51, inset 0 0 6px #b3ff51, inset 0 0 12px #b3ff51;
+}
+body {
+  background-size: cover;
+  background-color: #212529;
+}
+.card {
+  background-color: #212529;
+}
+
+@media only screen and (min-width: 1280px) {
+  .card {
+    width: 21rem;
+
+    background-size: auto;
+  }
+}
+
+@media only screen and (max-width: 1279px) {
+  .card {
+    width: 30rem;
+
+    background-size: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 25rem;
+
+    background-size: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 15rem;
+    background-size: auto;
+  }
+}
