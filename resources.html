@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link rel="icon" type="image/x-icon" href="src/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <style>
+      
+      .card {
+        box-shadow: 0 0 1px #b3ff51, 0 0 2px #b3ff51, 0 0 6px #b3ff51, 0 0 12px #b3ff51, inset 0 0 1px #b3ff51, inset 0 0 2px #b3ff51, inset 0 0 6px #b3ff51, inset 0 0 12px #b3ff51;
+        transition: box-shadow .3s ease-out;
+        box-shadow: .8px .9px 3px grey;
+        
+      }
+
+      .card:hover{ 
+        box-shadow: 0 0 1px #b3ff51, 0 0 2px #b3ff51, 0 0 6px #b3ff51, 0 0 12px #b3ff51, inset 0 0 1px #b3ff51, inset 0 0 2px #b3ff51, inset 0 0 6px #b3ff51, inset 0 0 12px #b3ff51;
+        transition:  box-shadow .3s ease-in;
+      }
+      
+      .border {
+        border: 3px solid #e0e722;
+        box-shadow: 0px 0px 0px grey;
+      }
+      
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+        .card-body {
+          font-size: 80%;
+        }
+        }
+
+    </style>
+</head>
+<body>
+     <!-- Navbar -->
+     <span id="0"></span>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+       <div class="container ">
+         <a class="navbar-brand" >
+           <img src="src/logo.png" alt="" width="60" height="60" class="d-inline-block align-middle" />
+           <span class="align-middle ms-2 fw-light fs-4" style="letter-spacing: 2px">Gadget Store</span>
+         </a>
+         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon ms-auto"></span>
+         </button>
+         <div class="collapse navbar-collapse ms-2" id="navbarNavDropdown">
+           <ul class="navbar-nav ms-auto ">
+             <li class="nav-item">
+               <a class="nav-link" aria-current="page" href="Home2.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="contactus.html">ContactUs</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" aria-current="page" href="aboutus.html">AboutUs</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="resources.html">Resources</a>
+               </li>
+             <li class="nav-item">
+               <a class="nav-link" href="index.html">Logout</a>
+             </li>
+             <li class="nav-item">
+               <div class="form-check form-switch  mt-2 me-2">
+                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="a()" />
+                 <script>
+                   function a() {
+                     var x = document.body;
+                     if (x.style.backgroundColor == 'black') {
+                       document.body.style.backgroundColor = 'white';
+                       document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'white';
+                       document.getElementById('judul1').style.color = 'black';
+                       document.getElementById('judul2').style.color = 'black';
+                     } else {
+                       document.body.style.backgroundColor = 'black';
+                       document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'black';
+                       document.getElementById('judul1').style.color = 'white';
+                       document.getElementById('judul2').style.color = 'white';
+                     }
+                   }
+                 </script>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+     <!--Akhir Navbar-->
+    <!-- Tabel -->
+    <div style="background-color: #212529;" >
+    <div class="container"  data-aos="fade-down" data-aos-duration="1500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+        <!-- Judul -->
+    <div class="container text-align-center d-flex justify-content-center pt-3">
+        <h1 style="color: white;">Resources</h1>
+    </div>
+    </div>
+    <!-- Judul -->
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,128L30,117.3C60,107,120,85,180,101.3C240,117,300,171,360,181.3C420,192,480,160,540,165.3C600,171,660,213,720,213.3C780,213,840,171,900,160C960,149,1020,171,1080,165.3C1140,160,1200,128,1260,112C1320,96,1380,96,1410,96L1440,96L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#1c1e1f;"></path></svg>
+    <div class="container ">
+        <div class="row ">
+          <!-- Pinterest -->
+            <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+                <div class="card border" style="width: 18rem;">
+                    <img src="src/pinterest.png"  height="300rem" class=" mt-1 ms-1 me-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pinterest</h5>
+                      <p class="card-text">Sumber Gambar Product</p>
+                      <a href="https://id.pinterest.com/" target="_blank" class="btn btn-success ">Click Here</a>
+                    </div>
+                  </div>
+            </div>
+          <!-- Youtube -->
+            <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+                <div class="card border" style="width: 18rem;">
+                    <img src="src/youtube.png" height="200rem" style="margin-bottom: .4rem;margin-top: 3rem;" alt="...">
+                    <div class="card-body" style="padding-top: 4rem;">
+                      <h5 class="card-title">Youtube</h5>
+                      <p class="card-text">Sumber Materi JavaScript</p>
+                      <a href="https://youtu.be/1RnzyplvqEg" target="_blank" class="btn btn-success ">Click Here</a>
+                    </div>
+                  </div>
+            </div>
+          <!-- Canva -->
+            <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+                <div class="card border" style="width: 18rem;">
+                    <img src="src/canva.png"  height="300rem" class="" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Canva</h5>
+                      <p class="card-text">Tools Pembuatan Desain</p>
+                      <a href="https://www.canva.com/design/DAEzKdTrAX0/share/preview?token=UKIxE_02Jm-fBTsoXK-MIg&role=EDITOR&utm_content=DAEzKdTrAX0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"  target="_blank" class="btn btn-success ">Click Here</a>
+                    </div>
+                  </div>
+            </div>
+          <!-- HTML -->
+            <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+                <div class="card border" style="width: 18rem;">
+                    <img src="src/html.png" class=" mt-2 ms-1 me-1"  height="300rem" class="" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">HTML</h5>
+                      <p class="card-text">Markup Language</p>
+                      <a href="https://www.w3schools.com/html/"  target="_blank" class="btn btn-success ">Click Here</a>
+                  </div>
+                </div>
+            </div>
+          <!-- CSS -->
+          <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+            <div class="card border" style="width: 18rem;">
+                <img src="src/css.png" class=" mt-1 ms-1 me-1"  height="300rem" class="" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">Cascading Style Sheet</p>
+                  <a href="https://www.w3schools.com/css/"  target="_blank" class="btn btn-success ">Click Here</a>
+              </div>
+            </div>
+        </div>
+        <!-- JS -->
+        <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+          <div class="card border" style="width: 18rem;">
+              <img src="src/javascript.png" class=" mt-1 ms-1 me-1"  height="300rem" class="" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text">Language Features Halaman</p>
+                <a href="https://www.javascript.com/"  target="_blank" class="btn btn-success ">Click Here</a>
+            </div>
+          </div>
+      </div>
+      <!-- PHP -->
+      <div class="col-md-4 mt-5 offset-md-2 d-flex justify-content-center mb-3">
+        <div class="card border" style="width: 18rem;">
+            <img src="src/php.png" class=" mt-2 ms-1 me-1"  height="300rem" class="" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PHP</h5>
+              <p class="card-text">Language Contact Us</p>
+              <a href="https://www.php.net/"  target="_blank" class="btn btn-success ">Click Here</a>
+          </div>
+        </div>
+    </div>
+    <!-- Bootstrap -->
+    <div class="col-md-4 mt-5 d-flex justify-content-center mb-3">
+      <div class="card border" style="width: 18rem;">
+          <img src="src/bootstrap.png" class=" mt-1 ms-1 me-1"  height="300rem" class="" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap</h5>
+            <p class="card-text">Framework Responsive Web</p>
+            <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"  target="_blank" class="btn btn-success ">Click Here</a>
+        </div>
+      </div>
+  </div>    
+          </div>
+        </div>  
+    <!-- Tabel -->
+        <!--Footer-->
+        <div  style="border: none;">
+  
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,128L30,117.3C60,107,120,85,180,101.3C240,117,300,171,360,181.3C420,192,480,160,540,165.3C600,171,660,213,720,213.3C780,213,840,171,900,160C960,149,1020,171,1080,165.3C1140,160,1200,128,1260,112C1320,96,1380,96,1410,96L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#1c1e1f;"></path></svg>
+
+          <div class="card-body text-center bg-dark text-white ">
+            <h5 class="card-title"><i>"Be Yourself and Never Surrender!"</i></h5>
+            <h6 class="card-title"><i>JessNoLimit</i></h6>
+            <p class="card-text">&copy; Gator Gadget Store 2021</p>
+          </div>
+  <!--Akhir Footer-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
