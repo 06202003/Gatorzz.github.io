@@ -130,11 +130,6 @@ a:hover {
   background-position-y: center;
 }
 
-.border {
-  border: 1px solid black;
-  box-shadow: 0 0 1px black, 0 0 2px black, 0 0 6px black, 0 0 12px black, inset 0 0 1px black, inset 0 0 2px black, inset 0 0 6px black, inset 0 0 12px black;
-}
-
 @media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
   .card-title {
     font-size: 100%;
@@ -368,3 +363,239 @@ a:hover {
 }
 
 /* Akhir */
+
+
+
+/* produk section 3D*/
+.produk-box{
+  position: relative;
+  /* background-color: salmon; */
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.produk-box::before{
+  content: '';
+  position: absolute;
+  color: black;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.produk-box:hover::before{
+  opacity: 0.5;
+}
+
+.produk-box::after{
+  content: '';
+  position: absolute;
+  color: black;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.produk-box:hover::after{
+  opacity: 0.2;
+}
+
+.produkname{
+
+  position: absolute;
+  top: 10%;
+  width: 100%;
+color: black;
+text-align: center;
+font-size: 2em;
+opacity: 0.5;
+transition: 0,5s;
+transform: translate3d(0, 0, 30px);
+}
+
+.produk-box:hover .produkname{
+  top: 30px;
+  opacity: 1;
+}
+
+.produk-button{
+  position: relative;
+  border-radius: 20px;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 55px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.produk-box:hover .produk-button {
+  opacity: 1;
+  bottom: 25px;
+}
+
+.produkimg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 50px);
+  max-width: 5000px;
+  transition: 0.5s;
+}
+
+.produk-box:hover .produkimg {
+  transform: translate3d(-50%, -50%, 50px) rotate(30deg) scale(1.4);
+}
+
+.harga{
+  opacity: 0; 
+  font-size: 6em;
+  font-style: italic;
+}
+
+.produk-box:hover .harga {
+  opacity: 0.5;
+}
+/* produk section 3D*/
+
+
+/* button deskripsi */
+/* From cssbuttons.io */
+#button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+ }
+ 
+ #button.learn-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ #button.learn-more .circle {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+ }
+ 
+ #button.learn-more .circle .icon {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ #button.learn-more .circle .icon.arrow {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ #button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+ }
+ 
+ #button.learn-more .button-text {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+ }
+ 
+ #button:hover .circle {
+  width: 100%;
+ }
+ 
+ #button:hover .circle .icon.arrow {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+      -ms-transform: translate(1rem, 0);
+          transform: translate(1rem, 0);
+ }
+ 
+ #button:hover .button-text {
+  color: #fff;
+ }
+
+ /* button deskripsi */
+
+
+/* card */
+/* From cssbuttons.io by @adamgiebl */
+.card01 {
+  /* width: 32%; */
+  /* height: 500px; */
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg,#808080, #882e2e 50%,#000000);
+ }
+ 
+ .card__content01 {
+  background: white;
+  border-radius: 17px;
+  /* width: 100%; */
+  /* height: 100%; */
+ }
+
+ .border {
+  border: 1px solid black;
+  
+  box-shadow: 0 0 1px black, 0 0 2px black, 0 0 6px black, 0 0 12px black, inset 0 0 1px black, inset 0 0 2px black, inset 0 0 6px black, inset 0 0 12px black;
+}
+
+/* akhir card */
+
+
+
+
