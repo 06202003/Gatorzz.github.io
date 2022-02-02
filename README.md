@@ -1,15 +1,19 @@
 # Ecommerce-Prototype-Project
 Project UAS - WebDasar IN211
 
-Kami membuat prototype Ecommerce mulai dari login, home, hingga contact.
+Kami membuat prototype ecommerce yang terinspirasi dari beberapa aplikasi belanja online.
 
 Kami menggunakan :
 1. HTML
 2. CSS
 3. JavaScript
 4. Framework Bootstrap
+5. Vanilla-Tilt.js
 
 https://gatorzz.netlify.app/
+
+contact-us form
+https://docs.google.com/spreadsheets/d/1DP4dVs6RrSzjrB8or6K2v45SPCxE3ibvKScbUZfw338/edit?usp=sharing
 
 username : admin <br />
 password : admin123
