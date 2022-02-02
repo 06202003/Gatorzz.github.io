@@ -46,36 +46,26 @@
                 </li>
                 <li class="nav-item">
                     <div class="form-check form-switch  mt-2 me-2">
-                        <div class="toggle-border">
-                            <input id="one" type="checkbox" id="flexSwitchCheckDefault" onchange="a()">
-                            <label for="one">
-                              <div class="handle"></div>
-                              <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="a()" style="visibility:hidden"/>
-
-                            </label>
-                          </div>
-                        <script>
-                            function a() {
-                                var x = document.body;
-                                if (x.style.backgroundColor == 'black') {
-                                    document.body.style.backgroundColor = 'white';
-                                    document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'white';
-                                    document.getElementById('judul1').style.color = 'black';
-                                    document.getElementById('judul2').style.color = 'black';
-                                    document.getElementById('judul4').style.color = 'black';
-                                    document.getElementById('judul5').style.color = 'black';
-                                } else {
-                                    document.body.style.backgroundColor = 'black';
-                                    document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'black';
-                                    document.getElementById('judul1').style.color = 'white';
-                                    document.getElementById('judul2').style.color = 'white';
-                                    document.getElementById('judul4').style.color = 'white';
-                                    document.getElementById('judul5').style.color = 'white';
-                                }
-                            }
-                        </script>
-                    </div>
-                </li>
+                      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="a()" />
+                      <script>
+                        function a() {
+                          var x = document.body;
+                          if (x.style.backgroundColor == 'black') {
+                            document.body.style.backgroundColor = 'white';
+                            document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'white';
+                            document.getElementById('judul1').style.color = 'black';
+                            
+                           
+                          } else {
+                            document.body.style.backgroundColor = 'black';
+                            document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'black';
+                            document.getElementById('judul1').style.color = 'white';
+       
+                            
+                          }
+                        }
+                      </script>
+                  </li>
             </ul>
         </div>
     </div>
