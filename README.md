@@ -4,7 +4,7 @@ Project UAS - WebDasar IN211
 Kami membuat prototype ecommerce yang terinspirasi dari beberapa aplikasi belanja online.
 
 Awalnya project ini dikerjakan oleh 11 orang yang merupakan Tugas Besar Web Dasar <br />
-https://youtu.be/rEVGud1hd6o https://github.com/Willyandie/Tugas-Besar-WebDas- <br /> <br />
+https://youtu.be/rEVGud1hd6o | https://github.com/Willyandie/Tugas-Besar-WebDas- <br /> <br />
 Setelah project ini selesai, saya dan kedua teman saya berinisiatif untuk menambahkan beberapa fitur dalam aplikasi yang telah dibuat, <br />
 
 Kami menggunakan :
