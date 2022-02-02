@@ -29,4 +29,4 @@ password : user123
 List of Known Issues Gator Gadget Store : <br />
 1. Cart Checkout <br /> Bisa multi item yang sama dapat ditambahkan ke cart. <br />
 
-©GatorZZ Gadget Store 2021
+©GatorZZ Gadget Store 2022
