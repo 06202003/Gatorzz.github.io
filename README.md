@@ -10,9 +10,10 @@ Kami menggunakan :
 4. Framework Bootstrap
 5. Vanilla-Tilt.js
 
+Link Website <br />
 https://gatorzz.netlify.app/
 
-contact-us form <br />
+Contact-Us Form <br />
 https://docs.google.com/spreadsheets/d/1DP4dVs6RrSzjrB8or6K2v45SPCxE3ibvKScbUZfw338/edit?usp=sharing
 
 username : admin <br />
