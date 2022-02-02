@@ -11,6 +11,10 @@ html {
 *:after {
   box-sizing: inherit;
 }
+.border {
+  border: 1px solid black;
+  box-shadow: 0 0 1px black, 0 0 2px black, 0 0 6px black, 0 0 12px black, inset 0 0 1px black, inset 0 0 2px black, inset 0 0 6px black, inset 0 0 12px black;
+}
 
 .column {
   float: left;
@@ -66,4 +70,181 @@ html {
     width: 100%;
     display: block;
   }
+}
+/* David */
+.about-box {
+  position: relative;
+  background-image: url('../src/david.jpg');
+  background-size: cover;
+  border-radius: 1rem;
+  height: 25rem;
+  overflow: hidden;
+}
+.about-box::before {
+  content: '2172003';
+  position: absolute;
+  color: whitesmoke;
+  font-size: 5em;
+  font-weight: lighter;
+  font-style: italic;
+  top: 2rem;
+  left: -100px;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.about-box:hover::before {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.about-box::after {
+  content: 'IG:yehezkiel_.david';
+  letter-spacing: 0.2em;
+  position: absolute;
+  color: whitesmoke;
+  font-size: 1.7em;
+  font-weight: lighter;
+  font-style: italic;
+  top: 20rem;
+  left: 450px;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.about-box:hover::after {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.about-name {
+  position: absolute;
+  color: whitesmoke;
+  font-size: 2em;
+  opacity: 0;
+  top: 0;
+  width: 100%;
+  transition: 0.5s;
+}
+.about-box:hover .about-name {
+  top: 15px;
+  opacity: 1;
+}
+/* arthur */
+.about-box1 {
+  position: relative;
+  background-image: url('../src/arthur.jpg');
+  background-size: cover;
+  border-radius: 1rem;
+  height: 25rem;
+  overflow: hidden;
+}
+.about-box1::before {
+  content: '2172027';
+  position: absolute;
+  color: whitesmoke;
+  font-size: 5em;
+  font-weight: lighter;
+  font-style: italic;
+  top: 2rem;
+  left: -100px;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.about-box1:hover::before {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.about-box1::after {
+  content: 'IG:xcrisarthur';
+  letter-spacing: 0.2em;
+  position: absolute;
+  color: whitesmoke;
+  font-size: 1.7em;
+  font-weight: lighter;
+  font-style: italic;
+  top: 20rem;
+  left: 450px;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.about-box1:hover::after {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.about-name1 {
+  position: absolute;
+  color: whitesmoke;
+  font-size: 2em;
+  opacity: 0;
+  top: 0;
+  width: 100%;
+  transition: 0.5s;
+}
+.about-box1:hover .about-name1 {
+  top: 15px;
+  opacity: 1;
+}
+/* Willy */
+.about-box2 {
+  position: relative;
+  background-image: url('../src/willy.png');
+  background-size: cover;
+  border-radius: 1rem;
+  height: 25rem;
+  overflow: hidden;
+}
+.about-box2::before {
+  content: '2172023';
+  position: absolute;
+  color: whitesmoke;
+  font-size: 5em;
+  font-weight: lighter;
+  font-style: italic;
+  top: 2rem;
+  left: -100px;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.about-box2:hover::before {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.about-box2::after {
+  content: 'IG:willyandie.s_';
+  letter-spacing: 0.2em;
+  position: absolute;
+  color: whitesmoke;
+  font-size: 1.7em;
+  font-weight: lighter;
+  font-style: italic;
+  top: 20rem;
+  left: 450px;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.about-box2:hover::after {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.about-name2 {
+  position: absolute;
+  color: whitesmoke;
+  font-size: 2em;
+  opacity: 0;
+  top: 0;
+  width: 100%;
+  transition: 0.5s;
+}
+.about-box2:hover .about-name2 {
+  top: 15px;
+  opacity: 1;
 }
