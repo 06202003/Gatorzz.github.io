@@ -12,7 +12,7 @@ Kami menggunakan :
 
 https://gatorzz.netlify.app/
 
-contact-us form
+contact-us form <br />
 https://docs.google.com/spreadsheets/d/1DP4dVs6RrSzjrB8or6K2v45SPCxE3ibvKScbUZfw338/edit?usp=sharing
 
 username : admin <br />
