@@ -192,7 +192,7 @@ html {
 /* Willy */
 .about-box2 {
   position: relative;
-  background-image: url('../src/willy.png');
+  background-image: url('../src/willy.jpg');
   background-size: cover;
   border-radius: 1rem;
   height: 25rem;
