@@ -13,7 +13,7 @@
 <body>
     <!--Navbar-->
     <span id="0"></span>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky">
     <div class="container ">
         <a class="navbar-brand" >
           <img src="src/logo.png" alt="" width="60" height="60" class="d-inline-block align-middle" />
@@ -55,13 +55,16 @@
                             document.body.style.backgroundColor = 'white';
                             document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'white';
                             document.getElementById('judul1').style.color = 'black';
-                            
-                           
+                            document.getElementById('judul2').style.color = 'black';
+                            document.getElementById('judul4').style.color = 'black';
+                            document.getElementById('judul5').style.color = 'black';
                           } else {
                             document.body.style.backgroundColor = 'black';
                             document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'black';
                             document.getElementById('judul1').style.color = 'white';
-       
+                            document.getElementById('judul2').style.color = 'white';
+                            document.getElementById('judul4').style.color = 'white';
+                            document.getElementById('judul5').style.color = 'white';
                             
                           }
                         }
@@ -125,8 +128,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 align-self-center ">
-                    <h1 id="judul5" data-aos="fade-up"
-                    data-aos-duration="700"> Special Promotion </h1>
+                    <h3 id="judul5" data-aos="fade-up" data-aos-duration="700"> Special Promotion </h3>
                 </div>
                 <div class="col-md-6 align-middle" data-aos="fade-up"
                 data-aos-duration="700">
@@ -716,7 +718,7 @@
     </div>
 <!-- Akhir 3D -->
     
-    <div class="container border border-radius rounded-2 table-responsive bg-dark" data-aos="fade-up" data-aos-duration="500"
+    <div class="container border border-radius rounded-2 table-responsive bg-dark" id="2" data-aos="fade-up" data-aos-duration="500"
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="false">
